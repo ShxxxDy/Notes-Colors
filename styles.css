@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+.box-main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space {
+  justify-content: space-between;
+}
+
+.border {
+  border: black 2px solid;
+}
+
+.padding {
+  padding: 10px 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.box-30 {
+  width: 30%;
+}
+
+/*Colori box e testo*/
+
+.bianco-molto-chiaro {
+  background-color: #f2f2f2;
+}
+.grigio-chiaro {
+  background-color: #a6a6a6;
+}
+
+.grigio-medio-scuro {
+  background-color: #595959;
+}
+
+.grigio-scuro {
+  background-color: #262626;
+}
+
+.nero {
+  background-color: #0d0d0d;
+}
+
+.bianco {
+  color: white;
+}
+
+/*Fonts*/
+
+.source-code-pro{
+    font-family: 'Source Code Pro';
+}
+
+.nunito-sans{
+    font-family: 'Nunito Sans';
+}
+
+.poppins{
+    font-family: 'Poppins';
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.font-size{
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.box-50{
+    width: 49%;
+}
+
+.width-100{
+    width: 100%;
+}

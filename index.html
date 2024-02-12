@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build a Website Design System</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="box-main">
+      <h1>My Website Style Guide</h1>
+      <!-- Colors-->
+      <div class="flex border justify-space padding">
+        <div class="width-100">  <!-- larghezza 100% per far occupare h2 tutto il blocco in una riga, altrimenti con un box flex, il titolo si va ad affiancare agli altri blocchi -->
+          <h2 class="center">Colors</h2>
+        </div>
+        <div class="bianco-molto-chiaro box-30 margin-bottom center">
+          <p>Bianco molto chiaro</p>
+          <p>#F2F2F2</p>
+          <p>RGB (242, 242, 242)</p>
+          <p>HSL (0, 0, 95)</p>
+        </div>
+        <div class="grigio-chiaro box-30 margin-bottom center">
+          <p>Grigio chiaro</p>
+          <p>#A6A6A6</p>
+          <p>RGB (166, 166, 166)</p>
+          <p>HSL (0, 0, 65)</p>
+        </div>
+        <div class="grigio-medio-scuro bianco box-30 margin-bottom center">
+          <p>Grigio medio scuro</p>
+          <p>#595959</p>
+          <p>RGB (89, 89, 89)</p>
+          <p>HSL (0, 0, 35)</p>
+        </div>
+        <div class="grigio-scuro bianco box-30 center">
+          <p>Grigio scuro</p>
+          <p>#262626</p>
+          <p>RGB (38,38,38)</p>
+          <p>HSL (0,0,15)</p>
+        </div>
+        <div class="nero bianco box-30 center">
+          <p>Nero</p>
+          <p>#0D0D0D</p>
+          <p>RGB (13,13,13)</p>
+          <p>HSL (0,0,5)</p>
+        </div>
+      </div>
+      <!-- Fonts-->
+      <div class="flex border justify-space padding margin-top">
+        <div class="width-100">
+            <h2 class="center">Fonts</h2>
+        </div>
+        <div class="source-code-pro box-50">
+            <p class="underline bold font-size">Source Code Pro</p>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="nunito-sans box-50">
+            <p class="underline bold font-size">Nunito Sans</p>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="poppins box-50">
+            <p class="underline bold font-size">Poppins</p>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>  
+      </div>
+      <!-- Text Styles-->
+      <div class="flex border justify-space padding margin-top">
+        <div class="width-100">
+          <h2 class="center">Text Styles</h2>
+        </div>
+        <div>
+          <h2>H1: Main page heading</h2>
+          <ul class="font-size">
+            <li>Font-weight: 700 bold</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Nunito Sans</li>
+          </ul>
+        </div>
+        <div>
+          <h3>H2: Subheading</h3>
+          <ul class="font-size">
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-size">P: Paragraph text</p>
+          <ul class="font-size">
+            <li>Font-weight: 400 regular</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
